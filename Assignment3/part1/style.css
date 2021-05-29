@@ -1,0 +1,138 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container_full{
+        width: 100%;
+    }
+    .container{
+        width: 1200px;
+    }
+    .header_bg{
+        background: #333333;
+        padding: 20px 0;
+    }
+    header{
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+    header h1{
+        color: rgb(240, 160, 13);
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    header h2{
+        color: #ffffff;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .nav_bg{
+        background: #666666;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style-type: none;
+        padding: 7px;
+        border-right: 1px solid black;
+    }
+    nav ul li a{
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+
+
+
+
+    section{
+        display: flex;
+    }
+
+    .article_wrap{
+        width: 70%;
+        margin: 20px;
+    }
+
+    article{
+        display: block;
+        align-items: center;
+        padding: 50px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .articleimage{
+        margin-right: 50px;
+    }
+
+
+    article h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    article p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        color: orange;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .aside{
+        padding-bottom: 20px;
+        width: 30%;
+        background-color: #a39e9e;
+    }
+
+    aside h2{
+        padding: 20px 0;
+        border-bottom: 1px solid white;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    aside ul li{
+        list-style-type: none;
+    }
+
+    aside ul li a{
+        display: block;
+        color: yellow;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 5px 20px;
+    }
+
+    aside p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    footer{
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .footer_bg{
+        background-color: #333;
+    }
+
+    footer a{
+        color: #9c6e18;
+        text-decoration: none;
+    }
+
